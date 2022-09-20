@@ -3,7 +3,9 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-
+use Illuminate\Database\Seeder;
+use Faker\Generator as Faker;
+use App\Models\Train;
 
 class CreateTrainsTable extends Migration
 {
